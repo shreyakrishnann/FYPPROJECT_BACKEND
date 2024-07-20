@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const corsOptions = {
-    origin: ['http://localhost:3000', 'https://fypproject-orpin.vercel.app/'],
+    origin: ['http://localhost:3000', 'https://pro-githubaction-deployment.vercel.app/'],
     optionsSuccessStatus: 200,
 };
 
